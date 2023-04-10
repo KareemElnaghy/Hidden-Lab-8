@@ -12,6 +12,9 @@ using namespace std;
         string remarks;
 
     public:
+        //constructors
+        Tag();
+        Tag(int, string, string);
         //setters
         void setID(int);
         void setName(string);
@@ -33,6 +36,8 @@ using namespace std;
         string type;
         string privacy;
     public:
+        //constructor
+        Photo();
         //setters
         void setID(int);
         void setTitle(string);
@@ -56,6 +61,8 @@ using namespace std;
         string remarks;
 
     public:
+        //constructor
+        Album();
         Album createAlbum();
         //setters
         void setID(int);
@@ -86,6 +93,8 @@ using namespace std;
         string address;
         string contact;
     public:
+        //constructor
+        Member();
         //setters
         void setID(int);
         void setName(string);
@@ -107,6 +116,8 @@ using namespace std;
         string name;
         string remarks;
     public:
+        //constructor
+        Location();
         //setters
         void setID(int);
         void setName(string);
